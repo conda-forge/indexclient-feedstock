@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 2.3.1
+  version: "3.0.0"
 
 package:
   name: indexclient
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/indexclient/indexclient-${{ version }}.tar.gz
-  sha256: 0beaf865aab58112961092aa58d06e31ca1cc8da26e9cd5cf84430d2f6567a0d
+  sha256: 63b46c8efc6332d9cf7a64826e522657831965d3a87e4345850e29c256b491ec
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
