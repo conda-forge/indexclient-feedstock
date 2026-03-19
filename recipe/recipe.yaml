@@ -1,6 +1,7 @@
 schema_version: 1
 
 context:
+  python_min: "3.13"
   version: "3.0.0"
 
 package:
@@ -21,6 +22,7 @@ requirements:
     - pip
     - python =${{ python_min }}
     - setuptools
+    - poetry-core
   run:
     - python >=${{ python_min }}
     - requests
