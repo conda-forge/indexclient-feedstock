@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.13"
-  version: "6.1.1"
+  version: "6.2.2"
 
 package:
   name: indexclient
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/indexclient/indexclient-${{ version }}.tar.gz
-  sha256: 53514076d8d77e3f9283e52bc93f8fbe3f8a3038ddfb8c0a1a8681509568d082
+  sha256: 41a1545e3229df6b7ef2a95555c173691423864e0f35310f02e61a623cca62b6
 
 build:
   number: 0
